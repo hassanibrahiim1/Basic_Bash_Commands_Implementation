@@ -1,4 +1,3 @@
-
 #  Femto Unix Utilities
 
 This repository contains custom implementations of common Unix-like utilities in C. These utilities mimic the behavior of their standard counterparts (`cp`, `echo`, `mv`, and `pwd`) but with simplified logic and structure.
@@ -7,7 +6,7 @@ This repository contains custom implementations of common Unix-like utilities in
 
 ### 1. `mycp.c`
 This program is a custom implementation of the Unix `cp` command. It copies files from one location to another.
-![mycpy](https://github.com/user-attachments/assets/422c6c66-d17e-4a4b-a425-54596b237e1d)
+![mycpy](https://github.com/user-attachments/assets/580a4932-6bad-49b8-a440-d3d022e546a9)
 
 #### Usage:
 ```bash
@@ -33,7 +32,9 @@ This program is a custom implementation of the Unix `echo` command. It outputs t
 
 ### 3. `mymv.c`
 This program is a custom implementation of the Unix `mv` command. It moves or renames files.
-![mymv](https://github.com/user-attachments/assets/897abd9f-5915-4465-b7a5-f26765d58e95)
+
+[Screencast from 09-09-2024 02:20:07 PM.webm](https://github.com/user-attachments/assets/814d47cc-c916-445b-9691-787f240ff18f)
+
 
 #### Usage:
 ```bash
@@ -46,9 +47,10 @@ This program is a custom implementation of the Unix `mv` command. It moves or re
 
 ### 4. `mypwd.c`
 This program is a custom implementation of the Unix `pwd` command. It prints the current working directory using the `getcwd()` function.
-![mypwd](https://github.com/user-attachments/assets/374ababc-23ed-4b3e-b9c8-d7289bfd3525)
 
+[Screencast from 09-09-2024 02:18:57 PM.webm](https://github.com/user-attachments/assets/50c15db9-3153-4baa-a478-e9d88d712875)
 #### Usage:
+
 ```bash
 ./mypwd
 ```
