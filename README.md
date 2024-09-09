@@ -1,5 +1,5 @@
 
-# Custom C Utility Programs
+#  Femto Unix Utilities
 
 This repository contains custom implementations of common Unix-like utilities in C. These utilities mimic the behavior of their standard counterparts (`cp`, `echo`, `mv`, and `pwd`) but with simplified logic and structure.
 
