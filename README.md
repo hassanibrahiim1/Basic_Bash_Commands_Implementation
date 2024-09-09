@@ -44,30 +44,6 @@ This program is a custom implementation of the Unix `mv` command. It moves or re
 ### 4. `mypwd.c`
 This program is a custom implementation of the Unix `pwd` command. It prints the current working directory using the `getcwd()` function.
 
-#### Code:
-```c
-#include <unistd.h>
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
-#define ERR_RET -1
-#define RET 0 
-#define PATH_MAX 256
-
-int main()
-{
-    char buf[PATH_MAX];
-    if (getcwd(buf, PATH_MAX) == NULL)
-    {
-        printf("ERROR: Path name exceeds PATH_MAX\n");
-        return ERR_RET;
-    }
-    printf("%s\n", buf);
-    return RET;
-}
-```
-
 #### Usage:
 ```bash
 ./mypwd
