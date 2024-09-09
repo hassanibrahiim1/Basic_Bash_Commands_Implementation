@@ -7,6 +7,7 @@ This repository contains custom implementations of common Unix-like utilities in
 
 ### 1. `mycp.c`
 This program is a custom implementation of the Unix `cp` command. It copies files from one location to another.
+![mycpy](https://github.com/user-attachments/assets/422c6c66-d17e-4a4b-a425-54596b237e1d)
 
 #### Usage:
 ```bash
@@ -19,6 +20,7 @@ This program is a custom implementation of the Unix `cp` command. It copies file
 
 ### 2. `myecho.c`
 This program is a custom implementation of the Unix `echo` command. It outputs the arguments provided to it.
+![echo](https://github.com/user-attachments/assets/0ee147e1-7393-499e-a994-97e3f7bc5194)
 
 #### Usage:
 ```bash
@@ -31,6 +33,7 @@ This program is a custom implementation of the Unix `echo` command. It outputs t
 
 ### 3. `mymv.c`
 This program is a custom implementation of the Unix `mv` command. It moves or renames files.
+![mymv](https://github.com/user-attachments/assets/897abd9f-5915-4465-b7a5-f26765d58e95)
 
 #### Usage:
 ```bash
@@ -43,6 +46,7 @@ This program is a custom implementation of the Unix `mv` command. It moves or re
 
 ### 4. `mypwd.c`
 This program is a custom implementation of the Unix `pwd` command. It prints the current working directory using the `getcwd()` function.
+![mypwd](https://github.com/user-attachments/assets/374ababc-23ed-4b3e-b9c8-d7289bfd3525)
 
 #### Usage:
 ```bash
